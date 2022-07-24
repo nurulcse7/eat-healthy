@@ -5,13 +5,11 @@ body {
 
 section {
     height: 500px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
-.top-banner {
-    
-    background-repeat: no-repeat;
-}
+
 
 .heading {
     color: #FBA24F;
@@ -28,25 +26,42 @@ h1 {
 }
 
 
-.half-width img {
-    width: 100%;
+.male-img {
+    width: 40%;
+    padding: 10px;
 }
 
 .anchor-button {
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
+    padding: 20px 30px;
+    border-radius: 35px;
     color: white;
     font-weight: 700;
+    
 }
 
 p {
     color: dimgray;
+    padding-bottom: 40px;
 }
 
 .hero-img {
     position: absolute;
     top: 0;
     bottom: 0;
+}
+
+.about-me {
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+}
+
+.female-img{
+    width: 60%;
+    padding-left: 80px;
+}
+
+.recipes{
+    align-items: center;
 }
